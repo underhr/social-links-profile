@@ -58,6 +58,7 @@ body{
     height:45px;
     margin-top:8px;
     margin-bottom:8px;
+    overflow:auto;
 }
 
 img{
@@ -73,4 +74,24 @@ img{
     color:#333333;
     transition:1s;
     cursor:pointer;
+}
+
+/*tablet view*/
+@media only screen and (max-width: 768px) {
+    #block{
+        width: 456px;
+    }
+    .button{
+        width:376px;
+    }
+}
+
+/*phone view*/
+@media only screen and (max-width: 375px) {
+    #block{
+        width: 327px;
+    }
+    .button{
+        width:279px;
+    }
 }
