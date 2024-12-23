@@ -11,13 +11,20 @@
     src: url(assets/fonts/static/Inter-Bold.ttf);
 }
 
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 body{
     background-color:#141414;
-    display:flex;
     margin:0;
     height:100vh;
-    align-items: center;
     color:white;
+    padding:1.5em;
 }
 
 #block{
@@ -29,20 +36,20 @@ body{
 }
 
 .name{
-    font-size:24px;
+    font-size:1.5rem;
     font-family:semibold;
 }
 
 .location{
     color:#C4F82A;
     font-family: b;
-    font-size:14px;
+    font-size:0.875rem;
     margin-top:-15px;
 }
 
 .description{
     font-family:regular;
-    font-size:14px;
+    font-size:0.875rem;
     margin:24px 0px 24px 0px;
 }
 
@@ -50,7 +57,7 @@ body{
     background-color:#333333;
     display:inline-block;
     font-family:b;
-    font-size:14px;
+    font-size:0.875rem;
     color:white;
     border:none;
     border-radius:8px;
